@@ -1,0 +1,21 @@
+package poo.app;
+
+public class MiApp {
+
+	//EL método run gestiona la ejecución del 
+	// programa, invocando el mínimo de sentencias.
+	static void run() {
+		System.out.println("Hola Mundo");
+	}
+	// El método principal debe quedar reducido al
+	// menor número de líneas
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		for (int i=0;i<=10;i++){
+         run();
+
+		}
+	}
+
+}
